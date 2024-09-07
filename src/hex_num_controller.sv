@@ -15,9 +15,9 @@ module hex_num_controller(input logic clk, reset,
                           output logic current_hex,
                           output logic hex1_num, hex2_num);
 
-    logic [8:0] counter;
+    logic [19:0] counter;
 
-    parameter counter_limit = 'd10;
+    parameter counter_limit = 'd10000;
 
     // Build State Registers
     always_ff@(posedge clk)
@@ -31,7 +31,7 @@ module hex_num_controller(input logic clk, reset,
 		state <= nextstate;
 			counter <= 0;
 	    end
-        else
+        else 
             begin
                 state <= nextstate;
                 counter <= counter + 1;

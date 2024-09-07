@@ -5,7 +5,8 @@ module lab2_tk(input logic reset,
                output logic [4:0] sum);
 
     logic int_osc;
-	
+	logic current_hex; 
+	 
     // High-speed oscillator
     HSOSC #(.CLKHF_DIV(2'b01)) hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
 
@@ -13,4 +14,4 @@ module lab2_tk(input logic reset,
     segment_decoder    dec(.current_hex(current_hex), .s1(s1), .s2(s2), .seg(seg));
     led_sum            led(.s1(s1), .s2(s2), .sum(sum));
 
-endmodule
+endmodule 
