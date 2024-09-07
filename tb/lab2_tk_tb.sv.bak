@@ -1,20 +1,26 @@
 // Author: Troy Kaufman
 // Email: tkaufman@g.hmc.edu
-// Date: 9/7/24
+// Date 9/7/24
 
 /*
-    This module tests the led_sum src code file. Reader needs to manually check outputs
+    This module tests the entire system design including time multiplexing and addition
 */
-// Compiler directice to set unit and resolution
 `timescale 1ns/1ns
 
-module led_sum_tb();
-    logic [3:0] s1, s2;
-    logic [4:0] sum;
 
-    led_sum dut(s1, s2, sum);
+module lab2_tk_tb();
+    logic reset;
+    logic [3:0] s1, s2;
+    logic [6:0] seg;
+    logic hex1_num, hex2_num;
+
+    lab2_tk dut(reset, s1, s2, seg, hex1_num, hex2_num);
+
+    // No need to generate clock. The top file instantiates a clock IP
 
     initial begin
+        reset = 0; #22; reset = 1;
+
         #5; s1 = 'd4; s2 = 'd5;
         #5; s1 = 'd8; s2 = 'd13;
         #5; s1 = 'd1; s2 = 'd1;
@@ -24,4 +30,5 @@ module led_sum_tb();
         #5; s1 = 'd0; s2 = 'd0;
         #5; s1 = 'd15; s2 = 'd15;
     end
+
 endmodule

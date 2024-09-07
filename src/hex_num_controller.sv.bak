@@ -29,7 +29,7 @@ module hex_num_controller(input logic clk, reset,
 	else if (counter == counter_limit)
 	    begin
 		state <= nextstate;
-			counter <= 0;
+		counter <= 0;
 	    end
         else
             begin

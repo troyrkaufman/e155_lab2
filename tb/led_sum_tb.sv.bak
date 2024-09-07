@@ -6,7 +6,7 @@
     This module tests the led_sum src code file. Reader needs to manually check outputs
 */
 // Compiler directice to set unit and resolution
-`timescale 1ns/1ns
+'timescale 1ns/1ns
 
 module led_sum_tb();
     logic [3:0] s1, s2;
