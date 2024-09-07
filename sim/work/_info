@@ -1,0 +1,264 @@
+m255
+K4
+z2
+!s11f vlog 2021.4 2021.10, Oct 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/lscc/radiant/3.2/modeltech/win32loem
+vhex_num_contrller_tb
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1725736033
+!i10b 1
+!s100 J]]Q5M^6HABB^B:12adSX3
+IG:BHG?4gE1D[9TLddjHnC0
+S1
+Z1 dC:/Users/tkaufman/my_designs/e155_lab2/sim
+w1725736030
+Z2 8C:/Users/tkaufman/my_designs/e155_lab2/tb/hex_num_controller_tb.sv
+Z3 FC:/Users/tkaufman/my_designs/e155_lab2/tb/hex_num_controller_tb.sv
+!i122 24
+Z4 L0 9 16
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OT;L;2021.4;73
+r1
+!s85 0
+31
+!s108 1725736033.000000
+Z7 !s107 C:/Users/tkaufman/my_designs/e155_lab2/tb/hex_num_controller_tb.sv|
+Z8 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/tb/hex_num_controller_tb.sv|
+!s101 -O0
+!i113 1
+Z9 o-work work -sv -O0
+Z10 tCvgOpt 0
+vhex_num_controller
+R0
+DXx4 work 26 hex_num_controller_sv_unit 0 22 Qh]IeWO2zP`1=Y@gU^o_j2
+Z11 !s110 1725737677
+R5
+r1
+!s85 0
+!i10b 1
+!s100 ]27WZX8D5HTS^He>gfXRY2
+I:P^W1Z[Y<Dj7I@lDjl8S_1
+!s105 hex_num_controller_sv_unit
+S1
+R1
+Z12 w1725737628
+Z13 8C:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv
+Z14 FC:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv
+!i122 43
+L0 14 64
+R6
+31
+Z15 !s108 1725737677.000000
+Z16 !s107 C:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv|
+Z17 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv|
+!s101 -O0
+!i113 1
+R9
+R10
+Xhex_num_controller_sv_unit
+R0
+R11
+VQh]IeWO2zP`1=Y@gU^o_j2
+r1
+!s85 0
+!i10b 1
+!s100 f2DGg^4QGZY:MbG3AXIEg3
+IQh]IeWO2zP`1=Y@gU^o_j2
+!i103 1
+S1
+R1
+R12
+R13
+R14
+!i122 43
+L0 11 0
+R6
+31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+R9
+R10
+vhex_num_controller_tb
+R0
+R11
+!i10b 1
+!s100 0NCNzd^`Ec8lDiH5GF>PC2
+Igm?C@;<bHHSFB1NK:4Y2d3
+S1
+R1
+w1725736073
+R2
+R3
+!i122 46
+R4
+R5
+R6
+r1
+!s85 0
+31
+R15
+R7
+R8
+!s101 -O0
+!i113 1
+R9
+R10
+vled_num_contrller_tb
+R0
+!s110 1725735253
+!i10b 1
+!s100 UIWb_??7@hz9^GA5No3eQ2
+I:bhhdWLXo4oB>Z7obc<zb3
+S1
+R1
+Z18 w1725734257
+R2
+R3
+!i122 16
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1725735253.000000
+R7
+R8
+!s101 -O0
+!i113 1
+R9
+R10
+vled_sum
+R0
+R11
+!i10b 1
+!s100 gYOm^ES`hJ8:Um;@1DXWT0
+I<jJEz<n;Y3XdQIKhoTJBo0
+S1
+R1
+Z19 w1725734184
+8C:/Users/tkaufman/my_designs/e155_lab2/src/led_sum.sv
+FC:/Users/tkaufman/my_designs/e155_lab2/src/led_sum.sv
+!i122 44
+L0 9 6
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/tkaufman/my_designs/e155_lab2/src/led_sum.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/src/led_sum.sv|
+!s101 -O0
+!i113 1
+R9
+R10
+vled_sum_tb
+R0
+R11
+!i10b 1
+!s100 d=2^0>6QT^1Rjnl@oUleT0
+IGb;_JaBZ6?Di3;XE7a4CN3
+S1
+R1
+w1725735037
+8C:/Users/tkaufman/my_designs/e155_lab2/tb/led_sum_tb.sv
+FC:/Users/tkaufman/my_designs/e155_lab2/tb/led_sum_tb.sv
+!i122 47
+L0 11 17
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/tkaufman/my_designs/e155_lab2/tb/led_sum_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/tb/led_sum_tb.sv|
+!s101 -O0
+!i113 1
+R9
+R10
+vseg_decoder
+R0
+!s110 1725735011
+!i10b 1
+!s100 YfJ23M5YaCk6>MnIUbB<a0
+IgIBOERH5_bmlRGdg_<e<42
+S1
+R1
+R19
+Z20 8C:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv
+Z21 FC:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv
+!i122 8
+Z22 L0 9 32
+R5
+R6
+r1
+!s85 0
+31
+!s108 1725735011.000000
+Z23 !s107 C:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv|
+Z24 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv|
+!s101 -O0
+!i113 1
+R9
+R10
+vsegment_decoder
+R0
+R11
+!i10b 1
+!s100 `VUA<;jMfH:KXFb;XN>8T0
+INmL^;_Qe3f`ekiH6W77Gh0
+S1
+R1
+w1725735246
+R20
+R21
+!i122 45
+R22
+R5
+R6
+r1
+!s85 0
+31
+R15
+R23
+R24
+!s101 -O0
+!i113 1
+R9
+R10
+vsegment_decoder_tb
+R0
+R11
+!i10b 1
+!s100 K6:XD]ZjT;fCF23D[=^4j3
+ILF9b8jZ[AGaRb^eY8kBnn2
+S1
+R1
+R18
+8C:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv
+FC:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv
+!i122 48
+L0 4 23
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv|
+!s101 -O0
+!i113 1
+R9
+R10
