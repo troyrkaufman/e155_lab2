@@ -1,4 +1,19 @@
-C:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv
+C:/Users/tkaufman/my_designs/e155_lab2/src/lab2_tk.sv {1 {vlog -work work -sv -stats=none C:/Users/tkaufman/my_designs/e155_lab2/src/lab2_tk.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module lab2_tk
+
+Top level modules:
+	lab2_tk
+
+} {} {}} C:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv {1 {vlog -work work -sv -stats=none C:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling package hex_num_controller_sv_unit
+-- Compiling module hex_num_controller
+
+Top level modules:
+	hex_num_controller
+
+} {} {}} C:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv
 Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
 -- Compiling module segment_decoder_tb
 
