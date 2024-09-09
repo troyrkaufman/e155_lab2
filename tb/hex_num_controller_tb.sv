@@ -12,14 +12,14 @@ module hex_num_controller_tb();
     logic hex1_num, hex2_num;
 
     //hex_num_controller dut(clk, reset, current_hex, hex1_num, hex2_num);
-    hex_num_controller dut(clk, reset, current_hex);
+    hex_num_controller dut(clk, reset, current_hex, hex1_num, hex2_num);
 
     always begin
         clk = 1; #1; clk = 0; #1;
     end
 
     initial begin
-        reset = 0; #5; reset = 1; #1;
+        reset = 0; #22; reset = 1; #5;
         //#50; reset = 0; #10; reset = 1;
     end
 endmodule

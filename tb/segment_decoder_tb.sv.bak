@@ -1,6 +1,6 @@
 
 
-`timescale 1ns/1ns
+
 module segment_decoder_tb();
     logic current_hex;
     logic [3:0] s1, s2;

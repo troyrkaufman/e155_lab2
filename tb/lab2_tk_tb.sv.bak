@@ -7,19 +7,19 @@
 */
 `timescale 1ns/1ns
 
-
 module lab2_tk_tb();
     logic reset;
     logic [3:0] s1, s2;
     logic [6:0] seg;
     logic hex1_num, hex2_num;
+    logic [4:0] sum;
 
-    lab2_tk dut(reset, s1, s2, seg, hex1_num, hex2_num);
+    lab2_tk dut(reset, s1, s2, seg, hex1_num, hex2_num, sum);
 
     // No need to generate clock. The top file instantiates a clock IP
 
     initial begin
-        reset = 0; #22; reset = 1;
+        reset = 0; #50; reset = 1; #50;
 
         #5; s1 = 'd4; s2 = 'd5;
         #5; s1 = 'd8; s2 = 'd13;

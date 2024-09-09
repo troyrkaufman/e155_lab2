@@ -7,7 +7,6 @@
 */
 `timescale 1ns/1ns
 
-
 module lab2_tk_tb();
     logic reset;
     logic [3:0] s1, s2;
@@ -20,7 +19,7 @@ module lab2_tk_tb();
     // No need to generate clock. The top file instantiates a clock IP
 
     initial begin
-        reset = 0; #22; reset = 1;
+        reset = 0; #22; reset = 1; #5;
 
         #5; s1 = 'd4; s2 = 'd5;
         #5; s1 = 'd8; s2 = 'd13;

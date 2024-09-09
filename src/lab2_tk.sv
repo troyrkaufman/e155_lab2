@@ -1,3 +1,5 @@
+//vsim work.fileName -L iCE40UP
+
 module lab2_tk(input logic reset,
                input logic [3:0] s1, s2,
                output logic [6:0] seg,
