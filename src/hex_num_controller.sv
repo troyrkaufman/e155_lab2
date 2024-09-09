@@ -10,7 +10,7 @@
 // current_hex encoding: 0 = 1st hex number; 1 = 2nd hex number
 
 
-module hex_num_controller(input logic clk, reset,
+module hex_num_controller(input logic clk, nreset,
                           output logic current_hex,
                           output logic hex1_num, hex2_num);
 						  
@@ -24,7 +24,7 @@ module hex_num_controller(input logic clk, reset,
     // Build State Registers
     always_ff@(posedge clk)
 		begin
-        if (~reset)
+        if (~nreset)
             begin
                 state <= S0;
                 counter <= 'b0;
@@ -84,6 +84,4 @@ module hex_num_controller(input logic clk, reset,
 					
             endcase
         end
-
-
 endmodule
