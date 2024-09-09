@@ -5,7 +5,7 @@ module lab2_tk(input logic reset,
                output logic [4:0] sum);
 
     logic int_osc;
-	logic current_hex; 
+    logic current_hex; 
 	 
     // High-speed oscillator
     HSOSC #(.CLKHF_DIV(2'b01)) hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));

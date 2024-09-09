@@ -49,8 +49,7 @@ module hex_num_controller(input logic clk, reset,
                 S1: if (counter == counter_limit) nextstate = S2;
                    else nextstate = S1;
                 S2: if (counter == counter_limit) nextstate = S1;
-                   else nextstate = S2;
-				//default: nextstate = S2; 
+                   else nextstate = S2; 
             endcase
         end 
 

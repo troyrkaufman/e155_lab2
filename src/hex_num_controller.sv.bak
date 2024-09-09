@@ -8,34 +8,39 @@
 */
 
 // current_hex encoding: 0 = 1st hex number; 1 = 2nd hex number
-typedef enum logic [1:0] {S0 = 0, S1 = 1, S2 = 2} statetype;
-statetype state, nextstate;
+
 
 module hex_num_controller(input logic clk, reset,
                           output logic current_hex,
                           output logic hex1_num, hex2_num);
+						  
+	typedef enum logic [1:0] {S0 = 0, S1 = 1, S2 = 2} statetype;
+	statetype state, nextstate;
 
-    logic [8:0] counter;
+    logic [24:0] counter;
 
-    parameter counter_limit = 'd10;
+    parameter counter_limit = 'd200000;
 
     // Build State Registers
     always_ff@(posedge clk)
+		begin
         if (~reset)
             begin
                 state <= S0;
-                counter <= 0;
+                counter <= 'b0;
             end
-	else if (counter == counter_limit)
-	    begin
-		state <= nextstate;
-		counter <= 0;
-	    end
-        else
+		else if (counter == counter_limit)
+			begin
+				state <= nextstate;
+				counter <= 'b0;
+			end
+        else 
             begin
                 state <= nextstate;
-                counter <= counter + 1;
-            end
+                counter <= counter + 'b1;
+            end 
+		end
+			
     // Next State Logic
     always_comb
         begin
@@ -45,6 +50,7 @@ module hex_num_controller(input logic clk, reset,
                    else nextstate = S1;
                 S2: if (counter == counter_limit) nextstate = S1;
                    else nextstate = S2;
+				//default: nextstate = S2; 
             endcase
         end 
 
@@ -54,22 +60,29 @@ module hex_num_controller(input logic clk, reset,
             case(state)
                 S0: 
                     begin
-                        current_hex = 0;
-                        hex1_num = 1;
-                        hex2_num = 1;
+                        current_hex = 'b0;
+                        hex1_num = 'b1;
+                        hex2_num = 'b1;
                     end
                 S1:
                     begin
-                        current_hex = 0;
-                        hex1_num = 0;
-                        hex2_num = 1;
+                        current_hex = 'b0;
+                        hex1_num = 'b0;
+                        hex2_num = 'b1;
                     end
                 S2:
                     begin
-                        current_hex = 1;
-                        hex1_num = 1;
-                        hex2_num = 0;
+                        current_hex = 'b1;
+                        hex1_num = 'b1;
+                        hex2_num = 'b0;
                     end
+				default: // default to state 0 output logic
+					begin
+                        current_hex = 'b0;
+                        hex1_num = 'b0;
+                        hex2_num = 'b1;
+                    end 
+					
             endcase
         end
 

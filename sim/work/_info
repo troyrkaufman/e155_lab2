@@ -1,7 +1,7 @@
 m255
 K4
 z2
-!s11f vlog 2021.4 2021.10, Oct 14 2021
+!s11f MIXED_VERSIONS
 13
 !s112 1.1
 !i10d 8192
@@ -35,35 +35,32 @@ Z8 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_desi
 Z9 o-work work -sv -O0
 Z10 tCvgOpt 0
 vhex_num_controller
-R0
-DXx4 work 26 hex_num_controller_sv_unit 0 22 Qh]IeWO2zP`1=Y@gU^o_j2
-Z11 !s110 1725742066
-R5
-r1
-!s85 0
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z12 !s110 1725855787
 !i10b 1
-!s100 ]27WZX8D5HTS^He>gfXRY2
-I:P^W1Z[Y<Dj7I@lDjl8S_1
-!s105 hex_num_controller_sv_unit
+!s100 >g7iOKL?@RPCQW5gJUmYC2
+I0hQe<d>:[gHZQ=`gY[CYe2
 S1
 R1
-Z12 w1725737628
+w1725855739
 Z13 8C:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv
 Z14 FC:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv
-!i122 117
-L0 14 64
-R6
+!i122 141
+L0 13 79
+R5
+Z15 OP;L;2022.3;75
+r1
+!s85 0
 31
-Z15 !s108 1725742065.000000
-Z16 !s107 C:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv|
-Z17 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv|
-!s101 -O0
+Z16 !s108 1725855787.000000
+Z17 !s107 C:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv|
+Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/src/hex_num_controller.sv|
 !i113 1
-R9
+Z19 o-work work -sv
 R10
 Xhex_num_controller_sv_unit
 R0
-R11
+!s110 1725742066
 VQh]IeWO2zP`1=Y@gU^o_j2
 r1
 !s85 0
@@ -73,95 +70,91 @@ IQh]IeWO2zP`1=Y@gU^o_j2
 !i103 1
 S1
 R1
-R12
+w1725737628
 R13
 R14
 !i122 117
 L0 11 0
 R6
 31
-R15
-R16
+!s108 1725742065.000000
 R17
+R18
 !s101 -O0
 !i113 1
 R9
 R10
 vhex_num_controller_tb
-R0
 R11
+R12
 !i10b 1
-!s100 0NCNzd^`Ec8lDiH5GF>PC2
-Igm?C@;<bHHSFB1NK:4Y2d3
+!s100 Kcm?80a1J?:zk4E:DA3ZA2
+IBSRh<CO0ZiKCEd>0[[6dL0
 S1
 R1
-w1725736073
+w1725855717
 R2
 R3
-!i122 120
-R4
+!i122 144
+L0 9 17
 R5
-R6
+R15
 r1
 !s85 0
 31
-Z18 !s108 1725742066.000000
+R16
 R7
 R8
-!s101 -O0
 !i113 1
-R9
+R19
 R10
 vlab2_tk
-R0
-!s125 LATTICE_CONN
 R11
+R12
 !i10b 1
-!s100 IE03]P?Ea?j9FCRIeLgdT1
-I?lS@MfTd2jGznB85R>gQa3
+!s100 RLl8KXJ^R0:d=ldR8`fi33
+IBBXC=:;D<1IaNoXRn<E>G2
 S1
 R1
-w1725742062
+w1725855775
 8C:/Users/tkaufman/my_designs/e155_lab2/src/lab2_tk.sv
 FC:/Users/tkaufman/my_designs/e155_lab2/src/lab2_tk.sv
-!i122 123
-L0 1 16
+!i122 147
+L0 1 18
 R5
-R6
+R15
 r1
 !s85 0
 31
-R18
+R16
 !s107 C:/Users/tkaufman/my_designs/e155_lab2/src/lab2_tk.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/src/lab2_tk.sv|
-!s101 -O0
 !i113 1
-R9
+R19
 R10
 vlab2_tk_tb
-R0
 R11
+R12
 !i10b 1
 !s100 mA[aKg3`AJf<QWCg:gSgc1
-IJW8<]6Ml8F=GQ>NN7Eg>M0
+I5K]3><7F::[_6HYi^7SnH3
 S1
 R1
 w1725741650
 8C:/Users/tkaufman/my_designs/e155_lab2/tb/lab2_tk_tb.sv
 FC:/Users/tkaufman/my_designs/e155_lab2/tb/lab2_tk_tb.sv
-!i122 124
+!i122 148
 L0 11 25
 R5
-R6
+R15
 r1
 !s85 0
 31
-R18
+R16
 !s107 C:/Users/tkaufman/my_designs/e155_lab2/tb/lab2_tk_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/tb/lab2_tk_tb.sv|
-!s101 -O0
 !i113 1
-R9
+R19
 R10
 vled_num_contrller_tb
 R0
@@ -171,7 +164,7 @@ R0
 I:bhhdWLXo4oB>Z7obc<zb3
 S1
 R1
-Z19 w1725734257
+Z20 w1725734257
 R2
 R3
 !i122 16
@@ -189,54 +182,52 @@ R8
 R9
 R10
 vled_sum
-R0
 R11
+R12
 !i10b 1
 !s100 gYOm^ES`hJ8:Um;@1DXWT0
-I<jJEz<n;Y3XdQIKhoTJBo0
+IXF7ET^Hj@cFX1Zlfc::;h3
 S1
 R1
-Z20 w1725734184
+Z21 w1725734184
 8C:/Users/tkaufman/my_designs/e155_lab2/src/led_sum.sv
 FC:/Users/tkaufman/my_designs/e155_lab2/src/led_sum.sv
-!i122 118
+!i122 142
 L0 9 6
 R5
-R6
+R15
 r1
 !s85 0
 31
-R18
+R16
 !s107 C:/Users/tkaufman/my_designs/e155_lab2/src/led_sum.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/src/led_sum.sv|
-!s101 -O0
 !i113 1
-R9
+R19
 R10
 vled_sum_tb
-R0
 R11
+R12
 !i10b 1
 !s100 d=2^0>6QT^1Rjnl@oUleT0
-IGb;_JaBZ6?Di3;XE7a4CN3
+ITWmS;TPEBUjR_VdZ^OOjX3
 S1
 R1
 w1725735037
 8C:/Users/tkaufman/my_designs/e155_lab2/tb/led_sum_tb.sv
 FC:/Users/tkaufman/my_designs/e155_lab2/tb/led_sum_tb.sv
-!i122 121
+!i122 145
 L0 11 17
 R5
-R6
+R15
 r1
 !s85 0
 31
-R18
+R16
 !s107 C:/Users/tkaufman/my_designs/e155_lab2/tb/led_sum_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/tb/led_sum_tb.sv|
-!s101 -O0
 !i113 1
-R9
+R19
 R10
 vseg_decoder
 R0
@@ -246,70 +237,68 @@ R0
 IgIBOERH5_bmlRGdg_<e<42
 S1
 R1
-R20
-Z21 8C:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv
-Z22 FC:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv
+R21
+Z22 8C:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv
+Z23 FC:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv
 !i122 8
-Z23 L0 9 32
+Z24 L0 9 32
 R5
 R6
 r1
 !s85 0
 31
 !s108 1725735011.000000
-Z24 !s107 C:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv|
-Z25 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv|
+Z25 !s107 C:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv|
+Z26 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/src/segment_decoder.sv|
 !s101 -O0
 !i113 1
 R9
 R10
 vsegment_decoder
-R0
 R11
+R12
 !i10b 1
 !s100 `VUA<;jMfH:KXFb;XN>8T0
-INmL^;_Qe3f`ekiH6W77Gh0
+I5XQJROG2P`ZMDX;<1^[Yg2
 S1
 R1
 w1725735246
-R21
 R22
-!i122 119
 R23
+!i122 143
+R24
 R5
-R6
+R15
 r1
 !s85 0
 31
-R18
-R24
+R16
 R25
-!s101 -O0
+R26
 !i113 1
-R9
+R19
 R10
 vsegment_decoder_tb
-R0
 R11
+R12
 !i10b 1
 !s100 K6:XD]ZjT;fCF23D[=^4j3
-ILF9b8jZ[AGaRb^eY8kBnn2
+IRA^<2Km[W?e8=eJdl1=g92
 S1
 R1
-R19
+R20
 8C:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv
 FC:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv
-!i122 122
+!i122 146
 L0 4 23
 R5
-R6
+R15
 r1
 !s85 0
 31
-R18
+R16
 !s107 C:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/tkaufman/my_designs/e155_lab2/tb/segment_decoder_tb.sv|
-!s101 -O0
 !i113 1
-R9
+R19
 R10
