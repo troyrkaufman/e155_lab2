@@ -29,7 +29,7 @@ module hex_num_controller(input logic clk, nreset,
                 state <= S0;
                 counter <= 'b0;
             end
-		else if (counter == counter_limit)
+		else if (counter >= counter_limit)
 			begin
 				state <= nextstate;
 				counter <= 'b0;
@@ -50,6 +50,7 @@ module hex_num_controller(input logic clk, nreset,
                    else nextstate = S1;
                 S2: if (counter == counter_limit) nextstate = S1;
                    else nextstate = S2; 
+				// default: nextstate = S0;
             endcase
         end 
 
