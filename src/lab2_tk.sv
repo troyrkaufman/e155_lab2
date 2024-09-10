@@ -1,4 +1,12 @@
-//vsim work.fileName -L iCE40UP
+// Author: Troy Kaufman
+// Email: tkaufman@hmc.edu  
+// Date: 9/6/24
+
+/*
+    This top module 
+*/
+
+//vsim work.fileName -L iCE40UP 
 
 module lab2_tk(input logic nreset,
                input logic [3:0] s1, s2,
