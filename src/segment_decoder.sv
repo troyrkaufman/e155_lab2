@@ -3,7 +3,7 @@
 // Date: 9/6/24
 
 /*
-    This module sends the current hexadecimal number to the dual 7-segment display. 
+    This module sends the current hexadecimal number to the dual 7-segment display based on the hex_num_controller.sv timing FSM
 */
 
 module segment_decoder (input logic current_hex,

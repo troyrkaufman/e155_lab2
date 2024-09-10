@@ -3,7 +3,8 @@
 // Date: 9/6/24
 
 /*
-    This top module 
+    This top module instantiates four other modules including a Lattice Radiant clock module. Essentially, this top file time 
+    multiplexes a dual seven segment display while outputting the current sum of the two 4 bit inputs on LEDs
 */
 
 //vsim work.fileName -L iCE40UP 
