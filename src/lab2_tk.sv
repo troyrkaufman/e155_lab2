@@ -7,7 +7,7 @@
     multiplexes a dual seven segment display while outputting the current sum of the two 4 bit inputs on LEDs
 */
 
-//vsim work.fileName -L iCE40UP 
+//vsim work.lab2_tk -L iCE40UP 
 
 module lab2_tk(input logic nreset,
                input logic [3:0] s1, s2,

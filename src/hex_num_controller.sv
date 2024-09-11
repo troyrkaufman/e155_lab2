@@ -52,7 +52,7 @@ module hex_num_controller(input logic clk, nreset,
                    else nextstate = S1;
                 S2: if (counter == counter_limit) nextstate = S1;
                    else nextstate = S2; 
-				default: nextstate = S0; //Weird behavior...synthesis tool sets current state as S0 ALWAYS...reset button fixes this in hardware
+				default: nextstate = S0; // Weird behavior with this line
             endcase
 
     //Output Logic

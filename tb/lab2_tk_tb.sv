@@ -21,12 +21,12 @@ module lab2_tk_tb();
     initial begin
         reset = 0; #22; reset = 1; #5;
 
-        #5; s1 = 'd4; s2 = 'd5;
+        #5; s1 = 'd13; s2 = 'd3;
         #5; s1 = 'd8; s2 = 'd13;
         #5; s1 = 'd1; s2 = 'd1;
         #5; s1 = 'd0; s2 = 'd5;
         #5; s1 = 'd12; s2 = 'd5;
-        #5; s1 = 'd3; s2 = 'd59;
+        #5; s1 = 'd3; s2 = 'd9;
         #5; s1 = 'd0; s2 = 'd0;
         #5; s1 = 'd15; s2 = 'd15;
     end
